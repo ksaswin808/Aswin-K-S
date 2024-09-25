@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial',  sans-serif;
+}
+
+body{
+    line-height: 1;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+header h1{
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+header .btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f04a4a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section{
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#about {
+    background-color: #f4f4f4;
+}
+
+#portfolio .gallery img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#contact .social-links a {
+    font-size: 2rem;
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+#contact .social-links a:hover{
+    color: #f04a4a;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p{
+    margin: 0;
+}
